@@ -1,0 +1,74 @@
+body{
+    margin: 0px;
+    background: linear-gradient(to bottom right, #D0DAE2, #B3C9DA);
+    background-repeat: no repeat;
+    align-items: center;
+}
+
+.header h1{
+    text-align: center;
+    color: #B3C9DA;
+    font-size: 5em;
+    
+    opacity: 0%;
+    animation-name: fadeIn;
+    animation-duration: 2s;
+    animation-delay: 0.3s;
+    animation-fill-mode: forwards;
+}
+
+.header-content{
+    background-color: #597B98;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+    
+    opacity: 0%;
+    animation-name: fadeIn;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+.navbar a{
+    text-decoration: none;
+    text-align: center;
+}
+
+.navbar li{
+    border: 3px ridge;
+    float: left;
+}
+
+.navbar ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: co;
+}
+
+main{
+    margin: 20px;
+    padding: 5px;
+}
+
+
+
+@keyframes fadeIn{
+    to {opacity: 100%}
+    50% {transform: scale(1.5, 1.5)}
+}
+
+
+/* 
+Paleta:
+
+#597B98; medium blue
+#B3C9DA; light blue
+#D0DAE2; basically white
+#1E435F; darker blue
+#133C5C; darkest blue
+
+*/
