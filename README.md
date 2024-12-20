@@ -9,3 +9,4 @@
 - Added the navbar to all the websites
 - Fixed the navegation bar issues wih the hyperlinks
 - Almost finished the layout of index.html
+- Updated the images to the repo
