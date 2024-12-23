@@ -13,3 +13,4 @@
 - Almost finished the layout of contact.html
 - The about.html is giving me trouble so I'm moving on to the other pages.
 - Fixed the strange problem where my repository's folder was somehow cloned inside my repository's folder sowhere along the way and updated everything accordingly
+- Almost finished the net.html
