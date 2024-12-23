@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact</title>
+        <link rel="stylesheet" href="../CSS/contact_style.css">
+    </head>
+
+    <body>
+
+        <header class="header">
+            <div class="header-content">
+                <h1>Contact</h1>
+                <img src="../images/UFV_logo_2.jpg" alt="UFV logo" id="img">
+            </div>
+
+            <nav class="navbar">
+                <ul>
+                    <li><a href="../index.html" id="main">MAIN</a></li>
+                    <li><a href="about.html" id="about">ABOUT</a></li>
+                    <li><a href="degree.html" id="degree">DEGREE</a></li>
+                    <li><a href="topic.html" id="topic">TOPIC</a></li>
+                    <li><a href="net.html" id="net">NET</a></li>
+                    <li><a href="contact.html" id="current">CONTACT</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="main">
+            <h1>CONTACT ME:</h1>
+
+            <div class="main-content">
+
+                <form action="index.php" method="POST" enctype="multipart/form-data">
+
+                    <label for="how u doing">how u doing: </label>
+                    <input type="text" id="username" placeholder="something" minlength="5" maxlength="8" required>
+
+                    <br><br>
+                    <label for="phone">phone number pls: </label>
+                    <input type="phone" id="phone" placeholder="666-666-666" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}"required>
+
+                    <br><br>
+                    <label for="date">date here!!!!!! <small>(or else)</small></label>
+                    <input type="date" id="date" required>
+
+                    <br><br>
+                    <label for="comments">write me smth cool here:</label><br>
+                    <textarea id="comments" rows="3" cols="46" required></textarea>
+
+                    <br><br>
+                    <label for="file">file: </label>
+                    <input type="file" id="file" accept="image/png" required>
+
+                    <br><br>
+                    <input type="reset">
+                    <input type="submit">
+                </form>
+
+            </div>
+
+        </main>
+
+        <footer class="footer">
+            <p>&copy; 2024 design by <a href="about.html" target="_blank" title="curious?">Aitana Imaz</a></p>
+        </footer>
+
+    </body>
+
+</html>
