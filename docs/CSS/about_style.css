@@ -1,3 +1,54 @@
+*{
+    box-sizing:border-box;
+}
+
+body{
+    margin: 0px;
+    background-color: #e2e9edf6;
+}
+
+.header h1{
+    text-align: center;
+    color: #B3C9DA;
+    font-size: 5em;
+    
+    opacity: 0%;
+    animation-name: fadeIn;
+    animation-duration: 2s;
+    animation-delay: 0.3s;
+    animation-fill-mode: forwards;
+
+    overflow:hidden;
+}
+
+.header-content{
+    background-color: #597B98;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+    
+    opacity: 0%;
+    animation-name: fadeIn;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+.header #img1{
+    max-height: 90px;
+    float: right;
+    margin: 10px;
+    margin-left: 1610px;
+    position: fixed;
+
+    opacity: 0%;
+    animation-name: roll;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+}
+
 .navbar a{
     text-decoration:none;
     color: #D0DAE2;
@@ -9,7 +60,6 @@
     display: inline-block;
     border: ridge 3px #B3C9DA;
     background-color:#1E435F;
-
 }
 
 .navbar ul{
@@ -35,4 +85,297 @@
     background-color:#B3C9DA;
     font-weight: bold;
     border-color:#133C5C;
+
+    opacity: 0%;
+    animation-name: ripple;
+    animation-duration: 2s;
+    animation-delay: 0.2s;
+    animation-fill-mode: forwards;
 }
+
+.navbar #main{
+    opacity: 0%;
+    animation-name: ripple;
+    animation-duration: 2s;
+    animation-delay: 0.1s;
+    animation-fill-mode: forwards;
+}
+
+.navbar #degree{
+    opacity: 0%;
+    animation-name: ripple;
+    animation-duration: 2s;
+    animation-delay: 0.3s;
+    animation-fill-mode: forwards;
+}
+
+.navbar #net{
+    opacity: 0%;
+    animation-name: ripple;
+    animation-duration: 2s;
+    animation-delay: 0.4s;
+    animation-fill-mode: forwards;
+}
+
+.navbar #topic{
+    opacity: 0%;
+    animation-name: ripple;
+    animation-duration: 2s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.navbar #contact{
+    opacity: 0%;
+    animation-name: ripple;
+    animation-duration: 2s;
+    animation-delay: 0.6s;
+    animation-fill-mode: forwards;
+}
+
+/*/////////////////*/
+
+main{
+    padding: 15px;
+    color: #1E435F;
+    font-size: 1.3em;
+}
+
+.main-content{
+    width:100%;
+    padding: 10px;
+}
+
+.circleIMG {
+    height: 300px;
+    display: block;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.circleIMG img{
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: top;
+    aspect-ratio:1;
+    border-radius: inherit;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.main-content .block{
+    height: 800px;
+    width: 37%;
+    background-color:#1E435F;
+    border-top:solid 2px #B3C9DA;
+    display:block;
+    float: left;
+    transform: translateY(-25px);
+}
+
+.main-content .block2{
+    height:200px;
+    width: 100%;
+    background-color:#42688a;
+    display:block;
+    position: absolute;
+    top: 200px;
+    left: 10px;
+    z-index: -1;
+    margin:0px;
+    padding:0px;
+    transform: translateX(-10px);
+}
+
+.block2 p{
+    text-align: center;
+    color: #B3C9DA;
+    font-size: 5em;
+    text-shadow:10px 10px 8px #133C5C;
+    margin-left: 600px;
+    margin-top: 40px;
+}
+
+.block p{
+    margin:20px;
+    background-color: #d8e5ef;
+    border-top:solid 1.5px #133C5C;
+    border-left:solid 1.5px #133C5C;
+    box-shadow: 8px 8px 0px #133C5C;
+
+    padding-bottom: 60px;
+    padding-right: 60px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.block h2{
+    margin:20px;
+    background-color: #e2e9edf6;
+
+    display:inline-block;
+    border-bottom:solid 1.5px #133C5C;
+    border-right:solid 1.5px #133C5C;
+    border-top:solid 1.5px #eff6fa;
+    border-left:solid 1.5px #eff6fa;
+    padding: 15px;
+
+}
+
+.main-content section {
+    width:60%;
+    float: right;
+    margin-top: 220px;
+    padding: 10px;
+    margin-left: 10px;
+    background-color:#133C5C;
+}
+
+.main-content section p{
+    display:block;
+    background-color: #d8e5ef;
+    border-top:solid 1.5px #133C5C;
+    border-left:solid 1.5px #133C5C;
+    box-shadow: 8px 8px 0px #133C5C;
+
+    padding-bottom: 60px;
+    padding-right: 60px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.main-content .aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: auto;
+    width: 600px;
+    background-color: #ccff00;
+    z-index: 3;
+
+}
+
+.aside p{
+    background-color: #d8e5ef;
+    border-top:solid 1.5px #133C5C;
+    border-left:solid 1.5px #133C5C;
+    box-shadow: 8px 8px 0px #133C5C;
+    padding-bottom: 60px;
+    padding-right: 60px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.aside img{
+    height: 300px;
+    display: blocK;
+}
+
+.main-content section p::first-letter{
+    font-style:italic;
+    font-size: 1.3em;
+}
+
+.main-content section h2{
+    margin-top: 0px;
+    background-color: #e2e9edf6;
+
+    display:inline-block;
+    border-bottom:solid 1.5px #133C5C;
+    border-right:solid 1.5px #133C5C;
+    border-top:solid 1.5px #eff6fa;
+    border-left:solid 1.5px #eff6fa;
+    padding: 15px;
+
+    opacity: 0%;
+    animation-name: ripple;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+.main-content section #p1{
+    opacity: 0%;
+    animation-name: ripple;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+.main-content section #p2{
+    opacity: 0%;
+    animation-name: ripple;
+    animation-duration: 2s;
+    animation-delay: 0.3s;
+    animation-fill-mode: forwards;
+}    
+
+.main p::selection{
+    color:#D0DAE2;
+    background-color: #133C5C;
+}
+
+.main h2::selection{
+    color:#D0DAE2;
+    background-color: #133C5C;
+}
+
+/*/////////////////*/
+
+.footer{
+    clear: both;
+    display: block;
+    background-color: #597B98;
+    color:#D0DAE2;
+    text-align: center;
+    padding:10px 15px;
+
+    opacity: 0%;
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+
+.footer a{
+    color:#D0DAE2;
+    text-decoration:none;
+}
+
+.footer a:hover{
+    color:#1E435F;
+    font-weight:bolder;
+}
+
+/*/////////////////*/
+
+@keyframes fadeIn{
+    to {opacity: 100%}
+    50% {transform: scale(1.2, 1.2)}
+}
+
+@keyframes roll{
+    to {opacity: 100%}
+    from {transform: translateX(100%) rotateZ(360deg)}
+}
+
+@keyframes ripple{
+    to {opacity: 100%}
+    50% {transform: translate(14px, 16px)}
+}
+
+/* 
+Paleta:
+
+#597B98; medium blue
+#B3C9DA; light blue
+#D0DAE2; basically white
+#1E435F; darker blue
+#133C5C; darkest blue
+
+*/
+
+/*drop menu so that when you hover it highlights the aragraph??
+more specific animations (sadge)*/
