@@ -14,3 +14,4 @@
 - The about.html is giving me trouble so I'm moving on to the other pages.
 - Fixed the strange problem where my repository's folder was somehow cloned inside my repository's folder sowhere along the way and updated everything accordingly
 - Almost finished the net.html
+- Finally got the about.html to work with what I was envisioning (after many trials)
