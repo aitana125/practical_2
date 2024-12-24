@@ -16,3 +16,4 @@
 - Almost finished the net.html
 - Finally got the about.html to work with what I was envisioning (after many trials)
 - While working on the degree section, I decided to add 3 pages: Subjects concerning my mathematics degree, Subjects concerning my Computer Science degree, and the required fce page.
+- Almost finished the degree section, starting to work on the topic section now.

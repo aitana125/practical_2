@@ -225,6 +225,40 @@ body{
     background-color:#D0DAE2;
 }
 
+
+.subGroup{
+    font-size: 1.5em;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+    /*background-color: #1E435F;*/
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    column-gap: 2em;
+    row-gap: 4em;
+}
+
+.subject{
+    display:block;
+    width: 40%;
+    border: 3px solid #B3C9DA;
+    background-color: #B3C9DA;
+    margin-left: 20px;
+}
+
+.subject .desc{
+    color:#1E435F;
+    background-color: #B3C9DA;
+    padding: 5px;
+}
+
+.subject:hover{
+    border: 3px solid #597B98;
+}
+
 /*/////////////////*/
 
 .footer{
