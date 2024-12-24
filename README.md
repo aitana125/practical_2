@@ -18,3 +18,4 @@
 - While working on the degree section, I decided to add 3 pages: Subjects concerning my mathematics degree, Subjects concerning my Computer Science degree, and the required fce page.
 - Almost finished the degree section, starting to work on the topic section now.
 - Finished the "templates" for all the sections of the website, will start with the content now and adjust where needed.
+- Working on finishing the look in the about.html
