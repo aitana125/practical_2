@@ -153,6 +153,11 @@ main{
     border-radius: 50%;
     margin: 0 auto;
     margin-top: 50px;
+
+    opacity: 0%;
+    animation-name: ripple;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
 }
 
 .circleIMG img{
@@ -164,16 +169,20 @@ main{
     border-radius: inherit;
     margin: 0 auto;
     margin-top: 50px;
+
+    border:#B3C9DA dashed 8px;
 }
 
 .main-content .block{
-    height: 800px;
+    height: 950px;
     width: 30%;
     background-color:#597B98;
     border-top:solid 2px #B3C9DA;
     display:block;
     float: left;
     transform: translateY(-25px);
+    border-right:#B3C9DA dashed 8px;
+    border-bottom:#B3C9DA dashed 8px;
 }
 
 .main-content .block2{
@@ -197,6 +206,11 @@ main{
     text-shadow:10px 10px 3px #133C5C;
     margin-left: 350px;
     margin-top: 10px;
+
+    opacity: 0%;
+    animation-name: ripple;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
 }
 
 .block p{
@@ -207,6 +221,12 @@ main{
     box-shadow: 8px 8px 0px #133C5C;
     padding: 30px;
     margin-top: -10px;
+
+    opacity: 0%;
+    animation-name: ripple;
+    animation-duration: 2s;
+    animation-delay: 0.8s;
+    animation-fill-mode: forwards;
 }
 
 .block h2{
@@ -219,18 +239,27 @@ main{
     border-top:solid 1.5px #eff6fa;
     border-left:solid 1.5px #eff6fa;
     padding: 8px 15px;
+
+    opacity: 0%;
+    animation-name: ripple;
+    animation-duration: 2s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
 }
 
 /**/
 
 .main-content2 {
     display: block;
-    height: 700px;
+    height: 900px;
     width: 67%;
     margin-left: auto;
     margin-top: 150px;
     background-color: #B3C9DA;
     padding: 20px;
+
+    border-left:#42688a dashed 8px;
+    border-top:#42688a dashed 8px;
 }
 
 .purpose p{
@@ -239,6 +268,11 @@ main{
     border-top:solid 1.5px #133C5C;
     border-left:solid 1.5px #133C5C;
     box-shadow: 8px 8px 0px #133C5C;
+
+    opacity: 0%;
+    animation-name: ripple;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
 }
 
 .education p{
@@ -247,6 +281,12 @@ main{
     border-top:solid 1.5px #133C5C;
     border-left:solid 1.5px #133C5C;
     box-shadow: 8px 8px 0px #133C5C;
+
+    opacity: 0%;
+    animation-name: ripple;
+    animation-duration: 2s;
+    animation-delay: 0.8s;
+    animation-fill-mode: forwards;
 }
 
 .education h3{
@@ -259,10 +299,16 @@ main{
     border-top:solid 1.5px #eff6fa;
     border-left:solid 1.5px #eff6fa;
     padding: 8px 15px;
+
+    opacity: 0%;
+    animation-name: ripple;
+    animation-duration: 2s;
+    animation-delay: 0.3s;
+    animation-fill-mode: forwards;
 }
 
 .skill{
-    width: 30%;  
+    width: 38%;  
     float: left;      
 }
 
@@ -272,9 +318,17 @@ main{
     border-top:solid 1.5px #133C5C;
     border-left:solid 1.5px #133C5C;
     box-shadow: 8px 8px 0px #133C5C;
+
+    opacity: 0%;
+    animation-name: ripple;
+    animation-duration: 2s;
+    animation-delay: 0.8s;
+    animation-fill-mode: forwards;
 }
+
 .skill #aaa{
     list-style-type: none;
+    margin-left: -15px;
 }
 
 .skill h3{
@@ -287,10 +341,16 @@ main{
     border-top:solid 1.5px #eff6fa;
     border-left:solid 1.5px #eff6fa;
     padding: 8px 15px;
+
+    opacity: 0%;
+    animation-name: ripple;
+    animation-duration: 2s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
 }
 
 .work{
-    width: 30%;
+    width: 25%;
     margin-left: 30px;
     float: left;
 }
@@ -301,6 +361,12 @@ main{
     border-top:solid 1.5px #133C5C;
     border-left:solid 1.5px #133C5C;
     box-shadow: 8px 8px 0px #133C5C;
+
+    opacity: 0%;
+    animation-name: ripple;
+    animation-duration: 2s;
+    animation-delay: 0.8s;
+    animation-fill-mode: forwards;
 }
 
 .work h3{
@@ -313,12 +379,26 @@ main{
     border-top:solid 1.5px #eff6fa;
     border-left:solid 1.5px #eff6fa;
     padding: 8px 15px;
+
+    opacity: 0%;
+    animation-name: ripple;
+    animation-duration: 2s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
 }
 
 .main-content2 img{ 
+    margin: 10px;
     float: right;
     height: 200px;
     margin-top: 50px;
+    margin-top: 120px;
+
+    opacity: 0%;
+    animation-name: ripple;
+    animation-duration: 2s;
+    animation-delay: 0.95s;
+    animation-fill-mode: forwards;
 }
 
 /**/

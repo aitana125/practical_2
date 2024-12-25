@@ -19,3 +19,5 @@
 - Almost finished the degree section, starting to work on the topic section now.
 - Finished the "templates" for all the sections of the website, will start with the content now and adjust where needed.
 - Working on finishing the look in the about.html
+- I still have to add the social media links to the about.html, but it is essentially finished alongside with contact and net.
+- Added a favicon to mark which ones are complete.
