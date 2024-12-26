@@ -23,3 +23,6 @@
 - Added a favicon to mark which ones are complete.
 - Topic is (essentially) complete.
 - Finished the main section.
+- While doing the degree section, I realised that perhaps the better solution would be to create websites for every year of my program rather than split them up by maths and computer science.
+- Implemented a dropwon menu for them that is only triggered when you find yourself in the degree section.
+- Fiished the design of what the degree pages will look like

@@ -133,7 +133,35 @@ body{
     animation-fill-mode: forwards;
 }
 
+.dropdown a{
+    display:block;
+    text-align: center;
+    text-decoration: none;
+    padding: 12px 18px;
+}
+
+.dropdown .content{
+    position: absolute;
+    display: none;
+    z-index:3;
+}
+
+.dropdown:hover .content{
+    display: block;
+}
+
+.dropdown:hover a{
+    font-weight:bold;
+    border-bottom: none;
+}
+
+.dropdown #current1{
+    background-color:#B3C9DA;
+    color:#133C5C;
+}
+
 /*/////////////////*/
+
 .main{
     display: flex;
     flex-wrap: wrap;
@@ -178,85 +206,61 @@ body{
     float:right;
 }
 
-.dropdown{
-    display: inline-block;
-    margin: 10px;
-}
-
-.dropdown button{
-    color:#133C5C;
-    background-color:#B3C9DA;
-    padding: 12px 18px;
-    border: none;
-    cursor: pointer;
-    border: 2px solid #597B98;
-    font-size: 1.2em;
-}
-
-.dropdown a{
-    display:block;
-    color:#133C5C;
-    border-right: 2px solid #597B98;
-    border-left: 2px solid #597B98;
-    text-align: center;
-    text-decoration: none;
-    padding: 12px 18px;
-    font-size: 1.2em;
-}
-
-.dropdown .content{
-    width: 8%;
-    background-color:#B3C9DA;
-    position: absolute;
-    display: none;
-}
-
-.dropdown:hover .content{
-    display: block;
-}
-
-.dropdown:hover button{
-    background-color:#D0DAE2;
-    font-weight:bold;
-    border-bottom: none;
-}
-
-.dropdown a:hover{
-    background-color:#D0DAE2;
-}
-
 
 .subGroup{
-    font-size: 1.5em;
-
-    margin-top: 50px;
-    margin-bottom: 50px;
-    /*background-color: #1E435F;*/
+    font-size: 1.3em;
+    margin: 50px;
+    background-color: #B3C9DA;
+    border: solid 5px #133C5C;
     display: flex;
-    flex-direction: row-reverse;
     justify-content: center;
     flex-wrap: wrap;
     align-content: flex-start;
     column-gap: 2em;
     row-gap: 4em;
+    padding: 50px;
 }
 
 .subject{
-    display:block;
-    width: 40%;
-    border: 3px solid #B3C9DA;
+    width: 30%;
+    border: 5px solid #597B98;
     background-color: #B3C9DA;
     margin-left: 20px;
+    padding: 20px;
 }
 
 .subject .desc{
     color:#1E435F;
-    background-color: #B3C9DA;
+}
+
+.desc h3{
+    text-align: center;
+}
+
+.credits{
+    float: right;
+    color:#1E435F;
+    font-weight: bold;
+}
+
+.teacher{
+    float: left;
+    color:#1E435F;
+    font-weight: bold;
+}
+
+.mid-header{
+    display:block;
+    height: 80px;
+    width: 100%;
+    text-align: center;
     padding: 5px;
+    color:#1E435F;
+    background-color:#B3C9DA;
 }
 
 .subject:hover{
-    border: 3px solid #597B98;
+    border: 5px solid #D0DAE2;
 }
 
 /*/////////////////*/
