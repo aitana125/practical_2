@@ -22,3 +22,4 @@
 - I still have to add the social media links to the about.html, but it is essentially finished alongside with contact and net.
 - Added a favicon to mark which ones are complete.
 - Topic is (essentially) complete.
+- Finished the main section.

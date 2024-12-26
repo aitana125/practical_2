@@ -136,68 +136,45 @@ body{
 /*/////////////////*/
 
 main{
-    padding: 15px;
     color: #1E435F;
     font-size: 1.3em;
 }
 
-.main-content section p{
+.main-content{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    width: 800px;
+    background-color: #B3C9DA;
+    border-right:#597B98 dashed 8px;
+    border-left:#597B98 dashed 8px;
+    border-top:#133C5C solid 4px;
+    border-bottom:#133C5C solid 4px;
+}
+
+.main-content section {
+    width: 60%;
     display:block;
     background-color: #d8e5ef;
     border-top:solid 1.5px #133C5C;
     border-left:solid 1.5px #133C5C;
     box-shadow: 8px 8px 0px #133C5C;
-
-    padding-bottom: 60px;
-    padding-right: 60px;
-    padding-left: 10px;
-    padding-top: 5px;
+    padding: 30px;
+    margin-top: -10px;
+    text-align: center;
 }
 
-.main-content section p::first-letter{
-    font-style:italic;
-    font-size: 1.3em;
-}
-
-.main-content section {
-    width:70%;
-    float: left;
-    padding: 10px;
-}
-
-.main-content section h2{
-    margin-top: 0px;
-
-    display:inline-block;
-    border-bottom:solid 1.5px #133C5C;
-    border-right:solid 1.5px #133C5C;
-    border-top:solid 1.5px #eff6fa;
-    border-left:solid 1.5px #eff6fa;
-    padding: 15px;
-
+.main-content section{
     opacity: 0%;
     animation-name: ripple;
     animation-duration: 2s;
     animation-fill-mode: forwards;
 }
 
-.main-content section #p1{
-    opacity: 0%;
-    animation-name: ripple;
-    animation-duration: 2s;
-    animation-fill-mode: forwards;
-}
-
-.main-content section #p2{
-    opacity: 0%;
-    animation-name: ripple;
-    animation-duration: 2s;
-    animation-delay: 0.3s;
-    animation-fill-mode: forwards;
-}
-
-
-.main-content aside {
+/*.main-content aside {
     width:25%;
     float: right;
     padding: 10px;
@@ -220,35 +197,9 @@ main{
     animation-duration: 2s;
     animation-delay: 0.1s;
     animation-fill-mode: forwards;
-}
+}*/
 
-.main-content aside p::first-letter{
-    font-style:italic;
-    font-size: 1.3em;
-}
-
-.main-content aside h2{
-    margin-top: 0px;
-
-    display:inline-block;
-    border-bottom:solid 1.5px #133C5C;
-    border-right:solid 1.5px #133C5C;
-    border-top:solid 1.5px #eff6fa;
-    border-left:solid 1.5px #eff6fa;
-    padding: 15px;
-
-    opacity: 0%;
-    animation-name: ripple;
-    animation-duration: 2s;
-    animation-fill-mode: forwards;
-}
-
-.main p::selection{
-    color:#D0DAE2;
-    background-color: #133C5C;
-}
-
-.main h2::selection{
+.main p::selection, b::selection{
     color:#D0DAE2;
     background-color: #133C5C;
 }
