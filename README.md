@@ -27,3 +27,4 @@
 - Implemented a dropwon menu for them that is only triggered when you find yourself in the degree section.
 - Fiished the design of what the degree pages will look like.
 - Finished the content for the first year web page.
+- The degree section is almost completed.
