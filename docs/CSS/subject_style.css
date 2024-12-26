@@ -259,6 +259,15 @@ body{
     background-color:#B3C9DA;
 }
 
+.desc a{
+    text-decoration: none;
+    color:#1E435F;
+}
+
+.desc a:hover{
+    text-decoration: underline;
+    color:#1E435F;
+}
 .subject:hover{
     border: 5px solid #D0DAE2;
 }
