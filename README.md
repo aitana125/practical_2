@@ -28,3 +28,4 @@
 - Fiished the design of what the degree pages will look like.
 - Finished the content for the first year web page.
 - The degree section is almost completed.
+- changed all css files so that the header and the footer would be within the newly created global_style.css and made the according changes so it reflects on the different webpages.
