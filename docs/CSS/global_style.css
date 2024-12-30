@@ -140,7 +140,7 @@ body{
 
 .main p::selection, b::selection, h1::selection, h2::selection,
 h3::selection, div::selection, a::selection, li::selection,
-form::selection, input::selection{
+form::selection, input::selection, small::selection{
     color:#D0DAE2;
     background-color: #133C5C;
 }
@@ -177,7 +177,7 @@ form::selection, input::selection{
 .footer{
     clear: both;
     display: block;
-    background-color: rgb(89, 123, 152);
+    background-color: #597b98;
     color:#D0DAE2;
     text-align: center;
     padding:10px 15px;

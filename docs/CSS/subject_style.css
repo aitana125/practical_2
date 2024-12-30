@@ -48,6 +48,12 @@
     padding: 5px;
     color:#1E435F;
     background-color:#B3C9DA;
+
+    opacity: 0%;
+    animation-name: ripple;
+    animation-duration: 2s;
+    animation-delay: 0.2s;
+    animation-fill-mode: forwards;
 }
 
 .main-content{
@@ -79,7 +85,6 @@
     float:right;
 }
 
-
 .subGroup{
     font-size: 1.3em;
     margin: 50px;
@@ -100,6 +105,12 @@
     background-color: #B3C9DA;
     margin-left: 20px;
     padding: 20px;
+
+    opacity: 0%;
+    animation-name: ripple;
+    animation-duration: 2s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
 }
 
 .subject .desc{
@@ -114,12 +125,24 @@
     float: right;
     color:#1E435F;
     font-weight: bold;
+
+    opacity: 0%;
+    animation-name: ripple;
+    animation-duration: 2s;
+    animation-delay: 0.7s;
+    animation-fill-mode: forwards;
 }
 
 .teacher{
     float: left;
     color:#1E435F;
     font-weight: bold;
+
+    opacity: 0%;
+    animation-name: ripple;
+    animation-duration: 2s;
+    animation-delay: 0.7s;
+    animation-fill-mode: forwards;
 }
 
 .mid-header{
@@ -130,6 +153,12 @@
     padding: 5px;
     color:#1E435F;
     background-color:#B3C9DA;
+
+    opacity: 0%;
+    animation-name: ripple;
+    animation-duration: 2s;
+    animation-delay: 0.2s;
+    animation-fill-mode: forwards;
 }
 
 .desc a{
