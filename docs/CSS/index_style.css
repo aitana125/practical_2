@@ -46,8 +46,3 @@ main{
     animation-duration: 2s;
     animation-fill-mode: forwards;
 }
-
-.main p::selection, b::selection{
-    color:#D0DAE2;
-    background-color: #133C5C;
-}
